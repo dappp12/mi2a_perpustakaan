@@ -9,7 +9,7 @@ $no = 1;
 
 ?>
 <h1 class="mb-3">Data Anggota</h1>
-<a class="btn btn-info mb-3" href="form_anggota.php">+ Input Anggota</a>
+<a class="btn btn-warning mb-3" href="form_anggota.php">+ Input Anggota</a>
 <table class="table table-bordered table-striped align-middle">
     <thead class="table-light">
         <tr>
@@ -30,7 +30,7 @@ $no = 1;
                 <td><?= htmlspecialchars($row['nama']) ?></td>
                 <td><?= htmlspecialchars($row['email']) ?></td>
                 <td><?= htmlspecialchars($row['no_hp']) ?></td>
-                <td><?= $row['dibuat_pada'] ?></td>
+                <td><?= date('Y', strtotime($row['dibuat_pada'])) ?></td>
 
 
                 <td>
