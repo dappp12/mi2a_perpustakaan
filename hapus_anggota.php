@@ -1,5 +1,6 @@
 <?php
 require 'koneksi.php';
+require 'auth.php';
 
 $id = (int) ($_GET['id'] ?? 0);
 

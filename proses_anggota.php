@@ -1,6 +1,7 @@
 
 <?php
 require_once __DIR__ . '/koneksi.php';
+require 'auth.php';
 
 // TAMBAH DATA ANGGOTA
 if (isset($_POST['submit'])) {

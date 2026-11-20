@@ -1,5 +1,6 @@
 <?php
 require 'koneksi.php';
+require 'auth.php';
 
 // Ambil data anggota berdasarkan ID
 $id = (int) ($_GET['id'] ?? 0);

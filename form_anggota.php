@@ -1,5 +1,6 @@
 <?php
 require 'koneksi.php';
+require 'auth.php';
 
 $judul_halaman = 'Input Anggota';
 $menu_aktif = 'anggota';
